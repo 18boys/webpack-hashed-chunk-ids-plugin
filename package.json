@@ -1,10 +1,13 @@
 {
   "name": "webpack-hashed-chunk-ids-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This plugin will cause hashes to be based on the relative path of the chunk, generating a four character string as the module id. Suggested for use in production.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "schema-utils": "2.6.5"
   },
   "repository": {
     "type": "git",
